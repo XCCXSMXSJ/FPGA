@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "abc"
+echo "实验2"
+echo "123"
