@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project/vivado_2020_prj/Chip_development/SI5351/SI5351/SI5351.srcs/sources_1/new/SI5351.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SI5351
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project/vivado_2020_prj/Chip_development/SI5351/SI5351/SI5351.srcs/sim_1/new/sim_si5351.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_si5351
