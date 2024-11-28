@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AD7172.srcs/sources_1/ip/ila_0/sim/ila_0.v" \
+"../../../../AD7172.srcs/sources_1/ip/vio_0/sim/vio_0.v" \
+"../../../../AD7172.srcs/sources_1/new/top.v" \
+"../../../../AD7172.srcs/sources_1/new/AD7172.v" \
+"../../../../AD7172.srcs/sim_1/new/sim_ad7172.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

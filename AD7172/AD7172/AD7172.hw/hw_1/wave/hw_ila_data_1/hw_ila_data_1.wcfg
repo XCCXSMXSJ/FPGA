@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/project/vivado_2020_prj/Chip_development/AD7172/AD7172/AD7172.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2167fs"></ZoomEndTime>
+      <Cursor1Time time="1266fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="185"></NameColumnWidth>
+      <ValueColumnWidth column_width="61"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="ad7172_inst/cs_t" type="logic">
+      <obj_property name="ElementShortName">ad7172_inst/cs_t</obj_property>
+      <obj_property name="ObjectShortName">cs_t</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/data_valid" type="logic">
+      <obj_property name="ElementShortName">ad7172_inst/data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/go" type="logic">
+      <obj_property name="ElementShortName">ad7172_inst/go</obj_property>
+      <obj_property name="ObjectShortName">go</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/init_cnt" type="array">
+      <obj_property name="ElementShortName">ad7172_inst/init_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">init_cnt[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/init_cycle" type="logic">
+      <obj_property name="ElementShortName">ad7172_inst/init_cycle</obj_property>
+      <obj_property name="ObjectShortName">init_cycle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/next_state" type="array">
+      <obj_property name="ElementShortName">ad7172_inst/next_state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/send_data" type="array">
+      <obj_property name="ElementShortName">ad7172_inst/send_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">send_data[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/read_cycle" type="logic">
+      <obj_property name="ElementShortName">ad7172_inst/read_cycle</obj_property>
+      <obj_property name="ObjectShortName">read_cycle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/sclk_r" type="logic">
+      <obj_property name="ElementShortName">ad7172_inst/sclk_r</obj_property>
+      <obj_property name="ObjectShortName">sclk_r</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/sdi_w" type="logic">
+      <obj_property name="ElementShortName">ad7172_inst/sdi_w</obj_property>
+      <obj_property name="ObjectShortName">sdi_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/read_cnt" type="array">
+      <obj_property name="ElementShortName">ad7172_inst/read_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_cnt[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/read_data" type="array">
+      <obj_property name="ElementShortName">ad7172_inst/read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/cs_r" type="logic">
+      <obj_property name="ElementShortName">ad7172_inst/cs_r</obj_property>
+      <obj_property name="ObjectShortName">cs_r</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/sdo_r" type="logic">
+      <obj_property name="ElementShortName">ad7172_inst/sdo_r</obj_property>
+      <obj_property name="ObjectShortName">sdo_r</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/send_cnt" type="array">
+      <obj_property name="ElementShortName">ad7172_inst/send_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">send_cnt[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/data_ch0" type="array">
+      <obj_property name="ElementShortName">ad7172_inst/data_ch0[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ch0[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/data_ch1" type="array">
+      <obj_property name="ElementShortName">ad7172_inst/data_ch1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ch1[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/data_ch2" type="array">
+      <obj_property name="ElementShortName">ad7172_inst/data_ch2[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ch2[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ad7172_inst/data_ch3" type="array">
+      <obj_property name="ElementShortName">ad7172_inst/data_ch3[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ch3[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
