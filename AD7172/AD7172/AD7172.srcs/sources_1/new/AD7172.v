@@ -254,7 +254,7 @@ module AD7172#
                     end 
     
                     4'd4:begin
-                        send_data <= {2'b00, 6'b000001, 16'h8000};
+                        send_data <= {2'b00, 6'b000001, 16'h8200};
                     end 
     
                     4'd5:begin
