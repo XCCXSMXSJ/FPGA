@@ -195,8 +195,8 @@ module AD7172#
             end 
 
             READ:begin
-                if(go) next_state <= AWAIT;
-                else next_state <= READ;
+                if(go) next_state = AWAIT;
+                else next_state = READ;
             end
 
             default:next_state = IDLE;
