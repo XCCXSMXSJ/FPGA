@@ -286,7 +286,7 @@ module AD7172#
                 end
     
                 AWAIT:begin
-                    if (neg_sdi_w) begin//
+                    if (~sdi_w) begin//
                         cs_t <= 1'b0;
                         go <= 1'b1;
                     end
