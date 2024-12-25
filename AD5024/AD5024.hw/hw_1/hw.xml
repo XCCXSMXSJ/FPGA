@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2020.1 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7a50t_0" gui_info="dashboard1=hw_vios[xc7a50t_0/hw_vio_1=VIO_PROBES_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7a50t_0" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_1/TOP.ltx"/>
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/TOP.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/TOP.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="data_valid" gui_info="hw_ila_1/hw_vio_1=0,hw_vios/hw_vio_1=4"/>
+    <Object name="i_data_a_1[15:0]" gui_info="hw_ila_1/hw_vio_1=1,hw_vios/hw_vio_1=0"/>
+    <Object name="i_data_a_2[15:0]" gui_info="hw_ila_1/hw_vio_1=2,hw_vios/hw_vio_1=1"/>
+    <Object name="i_data_a_3[15:0]" gui_info="hw_ila_1/hw_vio_1=3,hw_vios/hw_vio_1=2"/>
+    <Object name="i_data_a_4[15:0]" gui_info="hw_ila_1/hw_vio_1=4,hw_vios/hw_vio_1=3"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value="OutputDisplay:Toggle;"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="1"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="data_valid"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="BBBB"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="i_data_a_1[15]"/>
+        <net name="i_data_a_1[14]"/>
+        <net name="i_data_a_1[13]"/>
+        <net name="i_data_a_1[12]"/>
+        <net name="i_data_a_1[11]"/>
+        <net name="i_data_a_1[10]"/>
+        <net name="i_data_a_1[9]"/>
+        <net name="i_data_a_1[8]"/>
+        <net name="i_data_a_1[7]"/>
+        <net name="i_data_a_1[6]"/>
+        <net name="i_data_a_1[5]"/>
+        <net name="i_data_a_1[4]"/>
+        <net name="i_data_a_1[3]"/>
+        <net name="i_data_a_1[2]"/>
+        <net name="i_data_a_1[1]"/>
+        <net name="i_data_a_1[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="5555"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="i_data_a_2[15]"/>
+        <net name="i_data_a_2[14]"/>
+        <net name="i_data_a_2[13]"/>
+        <net name="i_data_a_2[12]"/>
+        <net name="i_data_a_2[11]"/>
+        <net name="i_data_a_2[10]"/>
+        <net name="i_data_a_2[9]"/>
+        <net name="i_data_a_2[8]"/>
+        <net name="i_data_a_2[7]"/>
+        <net name="i_data_a_2[6]"/>
+        <net name="i_data_a_2[5]"/>
+        <net name="i_data_a_2[4]"/>
+        <net name="i_data_a_2[3]"/>
+        <net name="i_data_a_2[2]"/>
+        <net name="i_data_a_2[1]"/>
+        <net name="i_data_a_2[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="4444"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="i_data_a_3[15]"/>
+        <net name="i_data_a_3[14]"/>
+        <net name="i_data_a_3[13]"/>
+        <net name="i_data_a_3[12]"/>
+        <net name="i_data_a_3[11]"/>
+        <net name="i_data_a_3[10]"/>
+        <net name="i_data_a_3[9]"/>
+        <net name="i_data_a_3[8]"/>
+        <net name="i_data_a_3[7]"/>
+        <net name="i_data_a_3[6]"/>
+        <net name="i_data_a_3[5]"/>
+        <net name="i_data_a_3[4]"/>
+        <net name="i_data_a_3[3]"/>
+        <net name="i_data_a_3[2]"/>
+        <net name="i_data_a_3[1]"/>
+        <net name="i_data_a_3[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="4444"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="i_data_a_4[15]"/>
+        <net name="i_data_a_4[14]"/>
+        <net name="i_data_a_4[13]"/>
+        <net name="i_data_a_4[12]"/>
+        <net name="i_data_a_4[11]"/>
+        <net name="i_data_a_4[10]"/>
+        <net name="i_data_a_4[9]"/>
+        <net name="i_data_a_4[8]"/>
+        <net name="i_data_a_4[7]"/>
+        <net name="i_data_a_4[6]"/>
+        <net name="i_data_a_4[5]"/>
+        <net name="i_data_a_4[4]"/>
+        <net name="i_data_a_4[3]"/>
+        <net name="i_data_a_4[2]"/>
+        <net name="i_data_a_4[1]"/>
+        <net name="i_data_a_4[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

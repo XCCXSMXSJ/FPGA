@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AD5024.srcs/sources_1/ip/vio_0/sim/vio_0.v" \
+"../../../../AD5024.srcs/sources_1/new/AD5024.v" \
+"../../../../AD5024.srcs/sources_1/new/TOP.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
