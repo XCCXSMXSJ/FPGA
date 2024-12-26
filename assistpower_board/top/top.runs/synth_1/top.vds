@@ -1,0 +1,409 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Dec 25 16:57:58 2024
+# Process ID: 56828
+# Current directory: D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.runs/synth_1/top.vds
+# Journal file: D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a50tftg256-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Device 21-403] Loading part xc7a50tftg256-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 52388
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1069.227 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'vio_0' [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.runs/synth_1/.Xil/Vivado-56828-DESKTOP-1M5ID73/realtime/vio_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio_0' (1#1) [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.runs/synth_1/.Xil/Vivado-56828-DESKTOP-1M5ID73/realtime/vio_0_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:126]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.runs/synth_1/.Xil/Vivado-56828-DESKTOP-1M5ID73/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (2#1) [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.runs/synth_1/.Xil/Vivado-56828-DESKTOP-1M5ID73/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'tla2024' [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/tla2024.v:28]
+	Parameter SYS_CLK_FREQ bound to: 8'b00110010 
+	Parameter ADDR_CHIP bound to: 7'b1001000 
+	Parameter WR bound to: 1'b0 
+	Parameter RD bound to: 1'b1 
+	Parameter CHANNEL_NUM bound to: 4'b0100 
+	Parameter DATA_CONFIG_CHANEL1 bound to: 16'b1100010011100011 
+	Parameter DATA_CONFIG_CHANEL2 bound to: 16'b1101010011100011 
+	Parameter DATA_CONFIG_CHANEL3 bound to: 16'b1110010011100011 
+	Parameter DATA_CONFIG_CHANEL4 bound to: 16'b1111010011100011 
+	Parameter addr_chip_w bound to: 8'b10010000 
+	Parameter addr_chip_r bound to: 8'b10010001 
+	Parameter addr_reg_r bound to: 8'b00000001 
+	Parameter addr_reg_w bound to: 8'b00000000 
+	Parameter addr_reg bound to: 8'b00000001 
+	Parameter start bound to: 8'b00000001 
+	Parameter send_data bound to: 8'b00000010 
+	Parameter ack_in bound to: 8'b00000011 
+	Parameter stop_iic bound to: 8'b00000100 
+	Parameter data_in bound to: 8'b00000101 
+	Parameter wait_iic bound to: 8'b00000110 
+	Parameter idle bound to: 8'b00000111 
+INFO: [Synth 8-6155] done synthesizing module 'tla2024' (3#1) [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/tla2024.v:28]
+WARNING: [Synth 8-7071] port 'o_busying' of module 'tla2024' is unconnected for instance 'tla2024_0' [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:183]
+WARNING: [Synth 8-7023] instance 'tla2024_0' of module 'tla2024' has 12 connections declared, but only 11 given [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:183]
+INFO: [Synth 8-6157] synthesizing module 'tla2024__parameterized0' [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/tla2024.v:28]
+	Parameter SYS_CLK_FREQ bound to: 8'b00110010 
+	Parameter ADDR_CHIP bound to: 7'b1001001 
+	Parameter WR bound to: 1'b0 
+	Parameter RD bound to: 1'b1 
+	Parameter CHANNEL_NUM bound to: 4'b0100 
+	Parameter DATA_CONFIG_CHANEL1 bound to: 16'b1100010011100011 
+	Parameter DATA_CONFIG_CHANEL2 bound to: 16'b1101010011100011 
+	Parameter DATA_CONFIG_CHANEL3 bound to: 16'b1110010011100011 
+	Parameter DATA_CONFIG_CHANEL4 bound to: 16'b1111010011100011 
+	Parameter addr_chip_w bound to: 8'b10010010 
+	Parameter addr_chip_r bound to: 8'b10010011 
+	Parameter addr_reg_r bound to: 8'b00000001 
+	Parameter addr_reg_w bound to: 8'b00000000 
+	Parameter addr_reg bound to: 8'b00000001 
+	Parameter start bound to: 8'b00000001 
+	Parameter send_data bound to: 8'b00000010 
+	Parameter ack_in bound to: 8'b00000011 
+	Parameter stop_iic bound to: 8'b00000100 
+	Parameter data_in bound to: 8'b00000101 
+	Parameter wait_iic bound to: 8'b00000110 
+	Parameter idle bound to: 8'b00000111 
+INFO: [Synth 8-6155] done synthesizing module 'tla2024__parameterized0' (3#1) [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/tla2024.v:28]
+WARNING: [Synth 8-7071] port 'o_busying' of module 'tla2024' is unconnected for instance 'tla2024_1' [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:212]
+WARNING: [Synth 8-7023] instance 'tla2024_1' of module 'tla2024' has 12 connections declared, but only 11 given [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:212]
+INFO: [Synth 8-6157] synthesizing module 'tla2024__parameterized1' [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/tla2024.v:28]
+	Parameter SYS_CLK_FREQ bound to: 8'b00110010 
+	Parameter ADDR_CHIP bound to: 7'b1001011 
+	Parameter WR bound to: 1'b0 
+	Parameter RD bound to: 1'b1 
+	Parameter CHANNEL_NUM bound to: 4'b0100 
+	Parameter DATA_CONFIG_CHANEL1 bound to: 16'b1100010011100011 
+	Parameter DATA_CONFIG_CHANEL2 bound to: 16'b1101010011100011 
+	Parameter DATA_CONFIG_CHANEL3 bound to: 16'b1110010011100011 
+	Parameter DATA_CONFIG_CHANEL4 bound to: 16'b1111010011100011 
+	Parameter addr_chip_w bound to: 8'b10010110 
+	Parameter addr_chip_r bound to: 8'b10010111 
+	Parameter addr_reg_r bound to: 8'b00000001 
+	Parameter addr_reg_w bound to: 8'b00000000 
+	Parameter addr_reg bound to: 8'b00000001 
+	Parameter start bound to: 8'b00000001 
+	Parameter send_data bound to: 8'b00000010 
+	Parameter ack_in bound to: 8'b00000011 
+	Parameter stop_iic bound to: 8'b00000100 
+	Parameter data_in bound to: 8'b00000101 
+	Parameter wait_iic bound to: 8'b00000110 
+	Parameter idle bound to: 8'b00000111 
+INFO: [Synth 8-6155] done synthesizing module 'tla2024__parameterized1' (3#1) [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/tla2024.v:28]
+WARNING: [Synth 8-7071] port 'o_busying' of module 'tla2024' is unconnected for instance 'tla2024_2' [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:241]
+WARNING: [Synth 8-7023] instance 'tla2024_2' of module 'tla2024' has 12 connections declared, but only 11 given [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:241]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [D:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36238]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (4#1) [D:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36238]
+INFO: [Synth 8-6157] synthesizing module 'ad5024' [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/ad5024.v:2]
+	Parameter IDLE bound to: 4'b0001 
+	Parameter POW_ON_DOWN bound to: 4'b0010 
+	Parameter WAIT_FOR_VALID bound to: 4'b1000 
+	Parameter SEND_A bound to: 4'b0011 
+	Parameter SEND_B bound to: 4'b0100 
+	Parameter SEND_C bound to: 4'b0101 
+	Parameter SEND_D bound to: 4'b0110 
+	Parameter END bound to: 4'b0111 
+INFO: [Synth 8-6155] done synthesizing module 'ad5024' (5#1) [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/ad5024.v:2]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'vio_0_inst'. This will prevent further optimization [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:104]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ad5024_1'. This will prevent further optimization [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:281]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ad5024_2'. This will prevent further optimization [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:296]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ad5024_3'. This will prevent further optimization [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:312]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'tla2024_0'. This will prevent further optimization [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:183]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0_inst'. This will prevent further optimization [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:126]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'tla2024_1'. This will prevent further optimization [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:212]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'tla2024_2'. This will prevent further optimization [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:241]
+INFO: [Synth 8-6155] done synthesizing module 'top' (6#1) [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/new/top.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1069.227 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1069.227 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1069.227 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1069.227 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'vio_0_inst'
+Finished Parsing XDC File [d:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'vio_0_inst'
+Parsing XDC File [d:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila_0_inst'
+Finished Parsing XDC File [d:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila_0_inst'
+Parsing XDC File [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/constrs_1/new/top.xdc]
+Finished Parsing XDC File [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/constrs_1/new/top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.srcs/constrs_1/new/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1169.816 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1169.816 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1169.816 ; gain = 100.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50tftg256-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1169.816 ; gain = 100.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for vio_0_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ila_0_inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1169.816 ; gain = 100.590
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ad5024'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                        000000001 |                             0000
+*
+                    IDLE |                        000000010 |                             0001
+             POW_ON_DOWN |                        000000100 |                             0010
+          WAIT_FOR_VALID |                        000001000 |                             1000
+                  SEND_A |                        000010000 |                             0011
+                  SEND_B |                        000100000 |                             0100
+                  SEND_C |                        001000000 |                             0101
+                  SEND_D |                        010000000 |                             0110
+                     END |                        100000000 |                             0111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'ad5024'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1169.816 ; gain = 100.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   10 Bit       Adders := 3     
+	   2 Input    9 Bit       Adders := 3     
+	   2 Input    8 Bit       Adders := 9     
+	   2 Input    6 Bit       Adders := 3     
+	   2 Input    5 Bit       Adders := 3     
+	   2 Input    4 Bit       Adders := 9     
+	   2 Input    2 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               16 Bit    Registers := 18    
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 15    
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 9     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 57    
++---Muxes : 
+	   9 Input   32 Bit        Muxes := 3     
+	   2 Input   10 Bit        Muxes := 3     
+	   2 Input    9 Bit        Muxes := 15    
+	   9 Input    9 Bit        Muxes := 3     
+	   2 Input    8 Bit        Muxes := 27    
+	   8 Input    8 Bit        Muxes := 6     
+	   6 Input    8 Bit        Muxes := 3     
+	   5 Input    8 Bit        Muxes := 3     
+	   9 Input    8 Bit        Muxes := 3     
+	   2 Input    6 Bit        Muxes := 3     
+	   2 Input    5 Bit        Muxes := 3     
+	   8 Input    5 Bit        Muxes := 3     
+	   2 Input    4 Bit        Muxes := 21    
+	   8 Input    4 Bit        Muxes := 3     
+	   6 Input    4 Bit        Muxes := 3     
+	   4 Input    3 Bit        Muxes := 3     
+	   2 Input    3 Bit        Muxes := 12    
+	   5 Input    3 Bit        Muxes := 3     
+	   3 Input    3 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 15    
+	   2 Input    1 Bit        Muxes := 212   
+	   8 Input    1 Bit        Muxes := 39    
+	   3 Input    1 Bit        Muxes := 6     
+	   5 Input    1 Bit        Muxes := 9     
+	   6 Input    1 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 12    
+	   9 Input    1 Bit        Muxes := 24    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1169.816 ; gain = 100.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1169.816 ; gain = 100.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1171.461 ; gain = 102.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1183.332 ; gain = 114.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1183.332 ; gain = 114.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1183.332 ; gain = 114.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1183.332 ; gain = 114.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1183.332 ; gain = 114.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1183.332 ; gain = 114.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1183.332 ; gain = 114.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+--------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name           | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+--------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|tla2024     | data_in_tmp_reg[4] | 5      | 3     | NO           | YES                | YES               | 3      | 0       | 
++------------+--------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |vio_0         |         1|
+|2     |ila_0         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |ila    |     1|
+|2     |vio    |     1|
+|3     |BUFG   |     1|
+|4     |CARRY4 |     8|
+|5     |LUT1   |    16|
+|6     |LUT2   |    76|
+|7     |LUT3   |    75|
+|8     |LUT4   |   195|
+|9     |LUT5   |   132|
+|10    |LUT6   |   285|
+|11    |SRL16E |     3|
+|12    |FDRE   |   573|
+|13    |FDSE   |    15|
+|14    |IBUF   |     1|
+|15    |IOBUF  |     1|
+|16    |OBUF   |    16|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1183.332 ; gain = 114.105
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1183.332 ; gain = 13.516
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1183.332 ; gain = 114.105
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1183.332 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1189.148 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1189.148 ; gain = 119.922
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/project/vivado_2020_prj/RGA/assistpower_board/top/top.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 25 16:58:35 2024...
