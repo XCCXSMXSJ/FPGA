@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Thu Nov 28 11:08:50 2024
+| Date         : Mon Dec 30 17:33:19 2024
 | Host         : DESKTOP-1M5ID73 running 64-bit major release  (build 9200)
 | Command      : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
 | Design       : top
@@ -50,377 +50,377 @@ Related violations: <none>
 
 PDRC-153#1 Warning
 Gated clock check  
-Net ad7172_inst/data_valid_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/data_valid_i_3/O, cell ad7172_inst/data_valid_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/data_valid_reg_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/data_valid_reg_LDC_i_1/O, cell ad7172_inst/data_valid_reg_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#2 Warning
 Gated clock check  
-Net ad7172_inst/read_cnt[0]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt[0]_i_3/O, cell ad7172_inst/read_cnt[0]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_cnt_reg[0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt_reg[0]_LDC_i_1/O, cell ad7172_inst/read_cnt_reg[0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#3 Warning
 Gated clock check  
-Net ad7172_inst/read_cnt[1]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt[1]_i_3/O, cell ad7172_inst/read_cnt[1]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_cnt_reg[1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt_reg[1]_LDC_i_1/O, cell ad7172_inst/read_cnt_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#4 Warning
 Gated clock check  
-Net ad7172_inst/read_cnt[2]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt[2]_i_3/O, cell ad7172_inst/read_cnt[2]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_cnt_reg[2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt_reg[2]_LDC_i_1/O, cell ad7172_inst/read_cnt_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#5 Warning
 Gated clock check  
-Net ad7172_inst/read_cnt[3]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt[3]_i_3/O, cell ad7172_inst/read_cnt[3]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_cnt_reg[3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt_reg[3]_LDC_i_1/O, cell ad7172_inst/read_cnt_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#6 Warning
 Gated clock check  
-Net ad7172_inst/read_cnt[4]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt[4]_i_3/O, cell ad7172_inst/read_cnt[4]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_cnt_reg[4]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt_reg[4]_LDC_i_1/O, cell ad7172_inst/read_cnt_reg[4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#7 Warning
 Gated clock check  
-Net ad7172_inst/read_cnt[5]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt[5]_i_3/O, cell ad7172_inst/read_cnt[5]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_cnt_reg[5]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt_reg[5]_LDC_i_1/O, cell ad7172_inst/read_cnt_reg[5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#8 Warning
 Gated clock check  
-Net ad7172_inst/read_cnt[6]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt[6]_i_3/O, cell ad7172_inst/read_cnt[6]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_cnt_reg[6]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt_reg[6]_LDC_i_1/O, cell ad7172_inst/read_cnt_reg[6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#9 Warning
 Gated clock check  
-Net ad7172_inst/read_cnt[7]_i_4_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt[7]_i_4/O, cell ad7172_inst/read_cnt[7]_i_4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_cnt_reg[7]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cnt_reg[7]_LDC_i_1/O, cell ad7172_inst/read_cnt_reg[7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#10 Warning
 Gated clock check  
-Net ad7172_inst/read_cycle_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cycle_i_3/O, cell ad7172_inst/read_cycle_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_cycle_reg_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_cycle_reg_LDC_i_1/O, cell ad7172_inst/read_cycle_reg_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#11 Warning
 Gated clock check  
-Net ad7172_inst/read_data[0]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[0]_i_3/O, cell ad7172_inst/read_data[0]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[0]_LDC_i_1/O, cell ad7172_inst/read_data_reg[0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#12 Warning
 Gated clock check  
-Net ad7172_inst/read_data[10]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[10]_i_3/O, cell ad7172_inst/read_data[10]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[10]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[10]_LDC_i_1/O, cell ad7172_inst/read_data_reg[10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#13 Warning
 Gated clock check  
-Net ad7172_inst/read_data[11]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[11]_i_3/O, cell ad7172_inst/read_data[11]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[11]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[11]_LDC_i_1/O, cell ad7172_inst/read_data_reg[11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#14 Warning
 Gated clock check  
-Net ad7172_inst/read_data[12]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[12]_i_3/O, cell ad7172_inst/read_data[12]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[12]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[12]_LDC_i_1/O, cell ad7172_inst/read_data_reg[12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#15 Warning
 Gated clock check  
-Net ad7172_inst/read_data[13]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[13]_i_3/O, cell ad7172_inst/read_data[13]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[13]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[13]_LDC_i_1/O, cell ad7172_inst/read_data_reg[13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#16 Warning
 Gated clock check  
-Net ad7172_inst/read_data[14]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[14]_i_3/O, cell ad7172_inst/read_data[14]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[14]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[14]_LDC_i_1/O, cell ad7172_inst/read_data_reg[14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#17 Warning
 Gated clock check  
-Net ad7172_inst/read_data[15]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[15]_i_3/O, cell ad7172_inst/read_data[15]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[15]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[15]_LDC_i_1/O, cell ad7172_inst/read_data_reg[15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#18 Warning
 Gated clock check  
-Net ad7172_inst/read_data[16]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[16]_i_3/O, cell ad7172_inst/read_data[16]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[16]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[16]_LDC_i_1/O, cell ad7172_inst/read_data_reg[16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#19 Warning
 Gated clock check  
-Net ad7172_inst/read_data[17]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[17]_i_3/O, cell ad7172_inst/read_data[17]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[17]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[17]_LDC_i_1/O, cell ad7172_inst/read_data_reg[17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#20 Warning
 Gated clock check  
-Net ad7172_inst/read_data[18]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[18]_i_3/O, cell ad7172_inst/read_data[18]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[18]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[18]_LDC_i_1/O, cell ad7172_inst/read_data_reg[18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#21 Warning
 Gated clock check  
-Net ad7172_inst/read_data[19]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[19]_i_3/O, cell ad7172_inst/read_data[19]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[19]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[19]_LDC_i_1/O, cell ad7172_inst/read_data_reg[19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#22 Warning
 Gated clock check  
-Net ad7172_inst/read_data[1]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[1]_i_3/O, cell ad7172_inst/read_data[1]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[1]_LDC_i_1/O, cell ad7172_inst/read_data_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#23 Warning
 Gated clock check  
-Net ad7172_inst/read_data[20]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[20]_i_3/O, cell ad7172_inst/read_data[20]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[20]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[20]_LDC_i_1/O, cell ad7172_inst/read_data_reg[20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#24 Warning
 Gated clock check  
-Net ad7172_inst/read_data[21]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[21]_i_3/O, cell ad7172_inst/read_data[21]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[21]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[21]_LDC_i_1/O, cell ad7172_inst/read_data_reg[21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#25 Warning
 Gated clock check  
-Net ad7172_inst/read_data[22]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[22]_i_3/O, cell ad7172_inst/read_data[22]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[22]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[22]_LDC_i_1/O, cell ad7172_inst/read_data_reg[22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#26 Warning
 Gated clock check  
-Net ad7172_inst/read_data[23]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[23]_i_3/O, cell ad7172_inst/read_data[23]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[23]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[23]_LDC_i_1/O, cell ad7172_inst/read_data_reg[23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#27 Warning
 Gated clock check  
-Net ad7172_inst/read_data[24]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[24]_i_3/O, cell ad7172_inst/read_data[24]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[24]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[24]_LDC_i_1/O, cell ad7172_inst/read_data_reg[24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#28 Warning
 Gated clock check  
-Net ad7172_inst/read_data[25]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[25]_i_3/O, cell ad7172_inst/read_data[25]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[25]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[25]_LDC_i_1/O, cell ad7172_inst/read_data_reg[25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#29 Warning
 Gated clock check  
-Net ad7172_inst/read_data[26]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[26]_i_3/O, cell ad7172_inst/read_data[26]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[26]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[26]_LDC_i_1/O, cell ad7172_inst/read_data_reg[26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#30 Warning
 Gated clock check  
-Net ad7172_inst/read_data[27]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[27]_i_3/O, cell ad7172_inst/read_data[27]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[27]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[27]_LDC_i_1/O, cell ad7172_inst/read_data_reg[27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#31 Warning
 Gated clock check  
-Net ad7172_inst/read_data[28]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[28]_i_3/O, cell ad7172_inst/read_data[28]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[28]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[28]_LDC_i_1/O, cell ad7172_inst/read_data_reg[28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#32 Warning
 Gated clock check  
-Net ad7172_inst/read_data[29]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[29]_i_3/O, cell ad7172_inst/read_data[29]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[29]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[29]_LDC_i_1/O, cell ad7172_inst/read_data_reg[29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#33 Warning
 Gated clock check  
-Net ad7172_inst/read_data[2]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[2]_i_3/O, cell ad7172_inst/read_data[2]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[2]_LDC_i_1/O, cell ad7172_inst/read_data_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#34 Warning
 Gated clock check  
-Net ad7172_inst/read_data[30]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[30]_i_3/O, cell ad7172_inst/read_data[30]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[30]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[30]_LDC_i_1/O, cell ad7172_inst/read_data_reg[30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#35 Warning
 Gated clock check  
-Net ad7172_inst/read_data[31]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[31]_i_3/O, cell ad7172_inst/read_data[31]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[31]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[31]_LDC_i_1/O, cell ad7172_inst/read_data_reg[31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#36 Warning
 Gated clock check  
-Net ad7172_inst/read_data[3]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[3]_i_3/O, cell ad7172_inst/read_data[3]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[3]_LDC_i_1/O, cell ad7172_inst/read_data_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#37 Warning
 Gated clock check  
-Net ad7172_inst/read_data[4]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[4]_i_3/O, cell ad7172_inst/read_data[4]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[4]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[4]_LDC_i_1/O, cell ad7172_inst/read_data_reg[4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#38 Warning
 Gated clock check  
-Net ad7172_inst/read_data[5]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[5]_i_3/O, cell ad7172_inst/read_data[5]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[5]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[5]_LDC_i_1/O, cell ad7172_inst/read_data_reg[5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#39 Warning
 Gated clock check  
-Net ad7172_inst/read_data[6]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[6]_i_3/O, cell ad7172_inst/read_data[6]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[6]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[6]_LDC_i_1/O, cell ad7172_inst/read_data_reg[6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#40 Warning
 Gated clock check  
-Net ad7172_inst/read_data[7]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[7]_i_3/O, cell ad7172_inst/read_data[7]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[7]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[7]_LDC_i_1/O, cell ad7172_inst/read_data_reg[7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#41 Warning
 Gated clock check  
-Net ad7172_inst/read_data[8]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[8]_i_3/O, cell ad7172_inst/read_data[8]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[8]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[8]_LDC_i_1/O, cell ad7172_inst/read_data_reg[8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#42 Warning
 Gated clock check  
-Net ad7172_inst/read_data[9]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data[9]_i_3/O, cell ad7172_inst/read_data[9]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/read_data_reg[9]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/read_data_reg[9]_LDC_i_1/O, cell ad7172_inst/read_data_reg[9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#43 Warning
 Gated clock check  
-Net ad7172_inst/sdo_r_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/sdo_r_i_3/O, cell ad7172_inst/sdo_r_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/sdo_r_reg_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/sdo_r_reg_LDC_i_1/O, cell ad7172_inst/sdo_r_reg_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#44 Warning
 Gated clock check  
-Net ad7172_inst/send_cnt[0]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt[0]_i_3/O, cell ad7172_inst/send_cnt[0]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_cnt_reg[0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt_reg[0]_LDC_i_1/O, cell ad7172_inst/send_cnt_reg[0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#45 Warning
 Gated clock check  
-Net ad7172_inst/send_cnt[1]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt[1]_i_3/O, cell ad7172_inst/send_cnt[1]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_cnt_reg[1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt_reg[1]_LDC_i_1/O, cell ad7172_inst/send_cnt_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#46 Warning
 Gated clock check  
-Net ad7172_inst/send_cnt[2]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt[2]_i_3/O, cell ad7172_inst/send_cnt[2]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_cnt_reg[2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt_reg[2]_LDC_i_1/O, cell ad7172_inst/send_cnt_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#47 Warning
 Gated clock check  
-Net ad7172_inst/send_cnt[3]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt[3]_i_3/O, cell ad7172_inst/send_cnt[3]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_cnt_reg[3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt_reg[3]_LDC_i_1/O, cell ad7172_inst/send_cnt_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#48 Warning
 Gated clock check  
-Net ad7172_inst/send_cnt[4]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt[4]_i_3/O, cell ad7172_inst/send_cnt[4]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_cnt_reg[4]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt_reg[4]_LDC_i_1/O, cell ad7172_inst/send_cnt_reg[4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#49 Warning
 Gated clock check  
-Net ad7172_inst/send_cnt[5]_i_2_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt[5]_i_2/O, cell ad7172_inst/send_cnt[5]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_cnt_reg[5]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt_reg[5]_LDC_i_1/O, cell ad7172_inst/send_cnt_reg[5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#50 Warning
 Gated clock check  
-Net ad7172_inst/send_cnt[6]_i_2_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt[6]_i_2/O, cell ad7172_inst/send_cnt[6]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_cnt_reg[6]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt_reg[6]_LDC_i_1/O, cell ad7172_inst/send_cnt_reg[6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#51 Warning
 Gated clock check  
-Net ad7172_inst/send_cnt[7]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt[7]_i_3/O, cell ad7172_inst/send_cnt[7]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_cnt_reg[7]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_cnt_reg[7]_LDC_i_1/O, cell ad7172_inst/send_cnt_reg[7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#52 Warning
 Gated clock check  
-Net ad7172_inst/send_data[0]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[0]_i_3/O, cell ad7172_inst/send_data[0]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[0]_LDC_i_1/O, cell ad7172_inst/send_data_reg[0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#53 Warning
 Gated clock check  
-Net ad7172_inst/send_data[10]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[10]_i_3/O, cell ad7172_inst/send_data[10]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[10]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[10]_LDC_i_1/O, cell ad7172_inst/send_data_reg[10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#54 Warning
 Gated clock check  
-Net ad7172_inst/send_data[11]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[11]_i_3/O, cell ad7172_inst/send_data[11]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[11]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[11]_LDC_i_1/O, cell ad7172_inst/send_data_reg[11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#55 Warning
 Gated clock check  
-Net ad7172_inst/send_data[12]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[12]_i_3/O, cell ad7172_inst/send_data[12]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[12]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[12]_LDC_i_1/O, cell ad7172_inst/send_data_reg[12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#56 Warning
 Gated clock check  
-Net ad7172_inst/send_data[13]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[13]_i_3/O, cell ad7172_inst/send_data[13]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[13]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[13]_LDC_i_1/O, cell ad7172_inst/send_data_reg[13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#57 Warning
 Gated clock check  
-Net ad7172_inst/send_data[14]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[14]_i_3/O, cell ad7172_inst/send_data[14]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[14]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[14]_LDC_i_1/O, cell ad7172_inst/send_data_reg[14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#58 Warning
 Gated clock check  
-Net ad7172_inst/send_data[15]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[15]_i_3/O, cell ad7172_inst/send_data[15]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[15]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[15]_LDC_i_1/O, cell ad7172_inst/send_data_reg[15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#59 Warning
 Gated clock check  
-Net ad7172_inst/send_data[16]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[16]_i_3/O, cell ad7172_inst/send_data[16]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[16]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[16]_LDC_i_1/O, cell ad7172_inst/send_data_reg[16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#60 Warning
 Gated clock check  
-Net ad7172_inst/send_data[17]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[17]_i_3/O, cell ad7172_inst/send_data[17]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[17]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[17]_LDC_i_1/O, cell ad7172_inst/send_data_reg[17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#61 Warning
 Gated clock check  
-Net ad7172_inst/send_data[18]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[18]_i_3/O, cell ad7172_inst/send_data[18]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[18]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[18]_LDC_i_1/O, cell ad7172_inst/send_data_reg[18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#62 Warning
 Gated clock check  
-Net ad7172_inst/send_data[19]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[19]_i_3/O, cell ad7172_inst/send_data[19]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[19]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[19]_LDC_i_1/O, cell ad7172_inst/send_data_reg[19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#63 Warning
 Gated clock check  
-Net ad7172_inst/send_data[1]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[1]_i_3/O, cell ad7172_inst/send_data[1]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[1]_LDC_i_1/O, cell ad7172_inst/send_data_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#64 Warning
 Gated clock check  
-Net ad7172_inst/send_data[20]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[20]_i_3/O, cell ad7172_inst/send_data[20]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[20]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[20]_LDC_i_1/O, cell ad7172_inst/send_data_reg[20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#65 Warning
 Gated clock check  
-Net ad7172_inst/send_data[21]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[21]_i_3/O, cell ad7172_inst/send_data[21]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[21]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[21]_LDC_i_1/O, cell ad7172_inst/send_data_reg[21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#66 Warning
 Gated clock check  
-Net ad7172_inst/send_data[22]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[22]_i_3/O, cell ad7172_inst/send_data[22]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[22]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[22]_LDC_i_1/O, cell ad7172_inst/send_data_reg[22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#67 Warning
 Gated clock check  
-Net ad7172_inst/send_data[23]_i_4_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[23]_i_4/O, cell ad7172_inst/send_data[23]_i_4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[23]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[23]_LDC_i_1/O, cell ad7172_inst/send_data_reg[23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#68 Warning
 Gated clock check  
-Net ad7172_inst/send_data[2]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[2]_i_3/O, cell ad7172_inst/send_data[2]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[2]_LDC_i_1/O, cell ad7172_inst/send_data_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#69 Warning
 Gated clock check  
-Net ad7172_inst/send_data[3]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[3]_i_3/O, cell ad7172_inst/send_data[3]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[3]_LDC_i_1/O, cell ad7172_inst/send_data_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#70 Warning
 Gated clock check  
-Net ad7172_inst/send_data[4]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[4]_i_3/O, cell ad7172_inst/send_data[4]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[4]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[4]_LDC_i_1/O, cell ad7172_inst/send_data_reg[4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#71 Warning
 Gated clock check  
-Net ad7172_inst/send_data[5]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[5]_i_3/O, cell ad7172_inst/send_data[5]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[5]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[5]_LDC_i_1/O, cell ad7172_inst/send_data_reg[5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#72 Warning
 Gated clock check  
-Net ad7172_inst/send_data[6]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[6]_i_3/O, cell ad7172_inst/send_data[6]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[6]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[6]_LDC_i_1/O, cell ad7172_inst/send_data_reg[6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#73 Warning
 Gated clock check  
-Net ad7172_inst/send_data[7]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[7]_i_3/O, cell ad7172_inst/send_data[7]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[7]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[7]_LDC_i_1/O, cell ad7172_inst/send_data_reg[7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#74 Warning
 Gated clock check  
-Net ad7172_inst/send_data[8]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[8]_i_3/O, cell ad7172_inst/send_data[8]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[8]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[8]_LDC_i_1/O, cell ad7172_inst/send_data_reg[8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#75 Warning
 Gated clock check  
-Net ad7172_inst/send_data[9]_i_3_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data[9]_i_3/O, cell ad7172_inst/send_data[9]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ad7172_inst/send_data_reg[9]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin ad7172_inst/send_data_reg[9]_LDC_i_1/O, cell ad7172_inst/send_data_reg[9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 RTSTAT-10#1 Warning
@@ -432,8 +432,8 @@ dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl
 dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0],
 dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0],
 dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0],
-dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow,
 dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow,
 dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i,
 dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i,
 dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[0],

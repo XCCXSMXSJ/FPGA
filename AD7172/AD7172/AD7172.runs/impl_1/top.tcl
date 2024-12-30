@@ -114,6 +114,21 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config  -id {[BD 41-1306]}  -suppress 
+set_msg_config  -id {[BD 41-1271]}  -suppress 
+set_msg_config  -id {[BD 41-1306]}  -suppress 
+set_msg_config  -id {[BD 41-1306]}  -suppress 
+set_msg_config  -id {[BD 41-1306]}  -suppress 
+set_msg_config  -id {[BD 41-1271]}  -suppress 
+set_msg_config  -id {[BD 41-1271]}  -suppress 
+set_msg_config  -id {[BD 41-1271]}  -suppress 
+set_msg_config  -id {[BD 41-1306]}  -suppress 
+set_msg_config  -id {[BD 41-1271]}  -suppress 
+set_msg_config  -id {[BD 41-1306]}  -suppress 
+set_msg_config  -id {[BD 41-1271]}  -suppress 
+set_msg_config  -id {[BD 41-1271]}  -suppress 
+set_msg_config  -id {[BD 41-1306]}  -suppress 
+set_msg_config  -id {[BD 41-1306]}  -suppress 
 
 OPTRACE "Implementation" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }

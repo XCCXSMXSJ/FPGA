@@ -52,12 +52,12 @@ module AD7172#
 
 );
 //状态机状态
-    parameter       IDLE = 8'd0;
-    parameter       WAIT = 8'd1;
-    parameter       INITIAL = 8'd2;
-    parameter       WRITE = 8'd3;
-    parameter       AWAIT = 8'd4;
-    parameter       READ = 8'd5;
+    localparam       IDLE = 8'd0;
+    localparam       WAIT = 8'd1;
+    localparam       INITIAL = 8'd2;
+    localparam       WRITE = 8'd3;
+    localparam       AWAIT = 8'd4;
+    localparam       READ = 8'd5;
     
     
 //时钟
@@ -67,6 +67,7 @@ module AD7172#
     wire            neg_sclk;
     wire            sdi_w;
     reg             sdi_w_1;
+    reg             sdi_w_2;
     wire            neg_sdi_w;
     reg             sdo_r = 1'b0;
     reg             cs_r = 1'b1;//cs片选
@@ -83,13 +84,14 @@ module AD7172#
     assign  sclk_cnt_limit = SYS_CLK_FREQ;
     assign  pos_sclk = sclk_r&(~sclk_r_1);
     assign  neg_sclk = (~sclk_r)&sclk_r_1;
-    assign  neg_sdi_w = (~sdi_w) & sdi_w_1;
+    assign  neg_sdi_w = (~sdi_w_1) & sdi_w_2;
 
     
 //sclk时钟生成(rf/8)MHz
     always @(posedge sys_clk ) begin
         sclk_r_1 <= sclk_r;
         sdi_w_1 <= sdi_w;
+        sdi_w_2 <= sdi_w_1;
         if(~cs_t)begin
             if (sclk_cnt >= sclk_cnt_limit[7:3]) begin
                 sclk_cnt <= 8'd0;
@@ -286,7 +288,7 @@ module AD7172#
                 end
     
                 AWAIT:begin
-                    if (~sdi_w) begin//
+                    if (~neg_sdi_w) begin//
                         cs_t <= 1'b0;
                         go <= 1'b1;
                     end
