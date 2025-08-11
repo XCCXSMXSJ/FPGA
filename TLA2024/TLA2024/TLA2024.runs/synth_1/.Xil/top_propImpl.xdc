@@ -1,0 +1,18 @@
+set_property SRC_FILE_INFO {cfile:d:/project/vivado_2020_prj/Chip_development/TLA2024/TLA2024/TLA2024.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc rfile:../../../TLA2024.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc id:1 order:EARLY scoped_inst:clk_wiz_0} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/project/vivado_2020_prj/Chip_development/TLA2024/TLA2024/TLA2024.srcs/constrs_1/new/top.xdc rfile:../../../TLA2024.srcs/constrs_1/new/top.xdc id:2} [current_design]
+current_instance clk_wiz_0
+set_property src_info {type:SCOPED_XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+create_generated_clock -source [get_ports clk_in1] -edges {1 2 3} -edge_shift {0.000 -5.000 -10.000} [get_ports {}]
+current_instance
+set_property src_info {type:XDC file:2 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN D13 [get_ports sys_clk]
+set_property src_info {type:XDC file:2 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H11 [get_ports sda]
+set_property src_info {type:XDC file:2 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G12 [get_ports scl]
+set_property src_info {type:XDC file:2 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property C_CLK_INPUT_FREQ_HZ 300000000 [get_debug_cores dbg_hub]
+set_property src_info {type:XDC file:2 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property C_ENABLE_CLK_DIVIDER false [get_debug_cores dbg_hub]
+set_property src_info {type:XDC file:2 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_property C_USER_SCAN_CHAIN 1 [get_debug_cores dbg_hub]

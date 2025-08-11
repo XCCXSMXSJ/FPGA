@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Aug 11 08:56:52 2025
+# Process ID: 15486
+# Current directory: /media/dylan/Data/work/git/RGA-PL/TLA2024/TLA2024/TLA2024.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /media/dylan/Data/work/git/RGA-PL/TLA2024/TLA2024/TLA2024.sim/sim_1/behav/xsim/xsim.dir/sim_tla2024_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /media/dylan/Data/work/git/RGA-PL/TLA2024/TLA2024/TLA2024.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /media/dylan/Data/work/git/RGA-PL/TLA2024/TLA2024/TLA2024.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /media/dylan/Data/work/git/RGA-PL/TLA2024/TLA2024/TLA2024.sim/sim_1/behav/xsim/xsim.dir/sim_tla2024_behav/webtalk/xsim_webtalk.tcl -notrace

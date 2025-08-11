@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../TLA2024.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../TLA2024.srcs/sources_1/ip/ila_0/sim/ila_0.v" \
+"../../../../TLA2024.srcs/sources_1/ip/ila_1/sim/ila_1.v" \
+"../../../../TLA2024.srcs/sources_1/new/TLA2024.v" \
+"../../../../TLA2024.srcs/sim_1/new/sim_tla2024.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
