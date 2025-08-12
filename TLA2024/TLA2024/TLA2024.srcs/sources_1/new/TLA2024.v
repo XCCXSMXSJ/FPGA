@@ -445,19 +445,24 @@ end
 
                 OS:begin
                     if (~conversion_ok) begin
-                        pre_rdpaddr <= 1'b0;
                         go_state <= 4'd2;// 
-                        if (sample_data[15]) conversion_ok <= 1'b1;
+                        if (sample_data[15]) begin
+                            conversion_ok <= 1'b1;
+                            pre_rdpaddr <= 1'b0;
+                        end else begin
+                            conversion_ok <= 1'b0;
+                            pre_rdpaddr <= 1'b1;
+                        end
                     end else if(conversion_ok) begin
                         recv_valid <= 1'b1;
                         work_state <= 1'b0;
                         conversion_ok <= 1'b0;
+                        pre_rdpaddr <= 1'b0;
+                        cfg_init <= 1'b1;   
                         if (channel_cnt >= 4'd3) begin// 四个通道全部执行完；回归IDLE
                             go_state <= 4'd1;
                         end else begin// 未完成4通道读取，切换cfg信息，重复执行逻辑
                             go_state <= 4'd2;
-                            pre_rdpaddr <= 1'b0;
-                            cfg_init <= 1'b1;
                         end
                     end
 
