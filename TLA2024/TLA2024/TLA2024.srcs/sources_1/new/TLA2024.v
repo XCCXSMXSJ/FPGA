@@ -60,7 +60,7 @@ module TLA2024#
     reg         [3:0]   go_state = 4'd0;
 
     reg                 work_state = 1'b0; // 表示工作状态，1 读逻辑；0 写逻辑
-    reg                 cfg_init = 1'b0;
+    reg                 cfg_init = 1'b0; // 1 表示需要进行通道初始化；0 表示通道初始化完成；
     reg                 pre_rdpaddr = 1'b0; // 表示读数逻辑中，是否完成pointer发送逻辑；1 完成，0 未完成
     wire        [15:0]  channel_cfg [3:0];
     reg         [15:0]  cfg_data = 16'd0; // 将要发送的cfg数据
@@ -458,11 +458,12 @@ end
                         work_state <= 1'b0;
                         conversion_ok <= 1'b0;
                         pre_rdpaddr <= 1'b0;
-                        cfg_init <= 1'b1;   
                         if (channel_cnt >= 4'd3) begin// 四个通道全部执行完；回归IDLE
                             go_state <= 4'd1;
+                            cfg_init <= 1'b0;   
                         end else begin// 未完成4通道读取，切换cfg信息，重复执行逻辑
                             go_state <= 4'd2;
+                            cfg_init <= 1'b1;   
                         end
                     end
 
@@ -471,33 +472,5 @@ end
             endcase
         end
     end
-ila_1 ila_1 (
-	.clk(sys_clk), // input wire clk
-
-	.probe0(AIN0), // input wire [11:0]  probe0  
-	.probe1(AIN1), // input wire [11:0]  probe1 
-	.probe2(AIN2), // input wire [11:0]  probe2 
-	.probe3(AIN3), // input wire [11:0]  probe3 
-	.probe4(data_valid) // input wire [0:0]  probe4
-);
-ila_0 ila_0 (
-	.clk(sys_clk), // input wire clk
-
-
-	.probe0(scl), // input wire [0:0]  probe0  
-	.probe1(sdi), // input wire [0:0]  probe1 
-	.probe2(sdo), // input wire [0:0]  probe2 
-	.probe3(sda_ctrl), // input wire [0:0]  probe3 
-	.probe4(sample_go), // input wire [0:0]  probe4 
-	.probe5(recv_valid), // input wire [0:0]  probe5 
-	.probe6(next_state), // input wire [7:0]  probe6 
-	.probe7(send_data), // input wire [7:0]  probe7 
-	.probe8(go_state), // input wire [3:0]  probe8 
-	.probe9(send_cnt), // input wire [7:0]  probe9 
-	.probe10(recv_data), // input wire [7:0]  probe10 
-	.probe11(recv_cnt), // input wire [7:0]  probe11
-	.probe12(channel_cnt), // input wire [3:0]  probe12 
-	.probe13(sample_data) // input wire [15:0]  probe13
-);
 endmodule
 
